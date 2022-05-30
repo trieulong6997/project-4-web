@@ -1,0 +1,83 @@
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+     }
+    
+     .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f5f5f5;
+        z-index: 1;
+        list-style: none;
+     }
+    
+     .dropdown:hover .dropdown-content{
+        display: block;
+     }
+
+     #banner img {
+         width: 100%;
+     }
+
+     .col {
+        display: inline-block;
+        margin-left: 3%;
+        margin-right: -4%;
+    }
+
+    .col img {
+        margin-top: 3%;
+    }
+
+    img {
+        width: 95%;
+        height: auto;
+    }
+
+    #banner {
+        position: relative;
+    }
+    .content-banner {
+        position: absolute;
+    }
+    .content-banner h1 {
+        color: white;
+        font-size: 300%;
+        margin-top: 30%;
+    }
+
+    #content h2 {
+        margin-left: 3%;
+    }
+
+    #footer a {
+        font-size: 120%;
+    }
+    #footer {
+        background-color: #f0f0f0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #banner hr {
+        display: none;
+    }
+
+
+    /* css for html */
+
+}    

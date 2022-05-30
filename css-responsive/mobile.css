@@ -1,0 +1,54 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  #menu{
+    background-color: red;
+  }
+  #menu a {
+    color: white;
+  }
+  .dropdown {
+    display: none;
+  }
+  
+  #banner img {
+    display: none;
+  }
+
+  img {
+    width: 95%;
+    height: auto;
+  }
+
+  .col img {
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+  #footer a {
+    font-size: 200%;
+  }
+  #footer {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 3%;
+  }
+
+      #main-content {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #main-content li {
+        display: block;
+        font-size: 120%;
+    }
+    #main-content p {
+        text-align: justify;
+        font-size: 120%;
+    }
+
+}
